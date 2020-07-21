@@ -1,0 +1,177 @@
+body {
+  background-image:url(BlackBack.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.changingpics {
+  background-image:url("PI1.jpg");
+  height: 40vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: pipics 20s infinite;
+}
+@keyframes pipics {
+  0% {background-image:url("PI1.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background: cover;
+  }
+  20% {background-image:url("PI2.png");
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background: cover;
+  }
+  40% {background-image:url("PI3.jpg");
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background: cover;
+  }
+  60% {background-image:url("PI4.jpg");
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background: cover;
+  }
+  80% {background-image: url("PI5.jpeg");
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background: cover;
+  }
+  100% {background-image: url("PI1.jpg");
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background: cover;
+  }
+}
+p {
+  color: white;
+  font-size: 1vw;
+}
+h1 {
+  font-weight: bold;
+  color:white;
+}
+a {
+  color: white;
+}
+big {
+  font-size: 5vw;
+}
+iframe {
+  height: 40vw;
+}
+.parallax {
+  background-image:url("PI6.png");
+  height:40vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.secondparallax {
+  background-image: url("PI7.jpg");
+  height: 40vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.thirdparallax {
+  background-image: url("PI8.jpg");
+  height: 45vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fourthparallax {
+  background-image:url(PI9.jpg);
+  height: 40vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fifthparallax {
+  background-image:url(MotherBox.jpg);
+  height: 40vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sixthparallax {
+  background-image:url(WiCharge.jpg);
+  height: 40vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-text {
+  background-color: rgba(0,0,0,0.5);
+  border: 0.15vw solid #f1f1f1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 6.5vw;
+  width: 7vw;
+}
+.bg-text1 {
+  background-color: rgba(0,0,0,0.5);
+  border: solid white;
+  border-width: 0.15vw 0 0.15vw 0;
+  color: white;
+  font-weight: bold;
+  font-size: 1vw;
+  position: fixed;
+  top: 0;
+  left: 7.3vw;
+  width: 31vw;
+  padding: 1vw 0 1vw 0;
+  text-align: center;
+}
+.bg-text2 {
+  background-color: rgba(0,0,0,0.5);
+  border: solid white;
+  border-width: 0.15vw 0 0.15vw 0;
+  color: white;
+  font-weight: bold;
+  font-size: 1vw;
+  position: fixed;
+  top: 0;
+  left: 38.3vw;
+  width: 31vw;
+  padding: 1vw 0 1vw 0;
+  text-align: center;
+}
+.bg-text3 {
+  background-color: rgba(0,0,0,0.5);
+  border: solid white;
+  border-width: 0.15vw 0 0.15vw 0;
+  color: white;
+  font-weight: bold;
+  font-size: 1vw;
+  position: fixed;
+  top: 0;
+  left: 69.3vw;
+  width: 31vw;
+  padding: 1vw 0 1vw 0;
+  text-align: center;
+}
+a:hover {
+  opacity: 0.7;
+}
